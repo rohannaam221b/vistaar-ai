@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vistaar Finance - Loan Quality Check System</title>
+    <meta name="description" content="AI-powered loan verification and quality check system for Vistaar Finance" />
+    <style>
+      /* Prevent flash of unstyled content */
+      html { visibility: hidden; opacity: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      /* Show content after styles load */
+      document.addEventListener('DOMContentLoaded', function() {
+        document.documentElement.style.visibility = 'visible';
+        document.documentElement.style.opacity = '1';
+      });
+    </script>
+  </body>
+</html>
